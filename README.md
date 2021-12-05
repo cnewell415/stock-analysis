@@ -1,4 +1,5 @@
 # VBA of Wall Street
+### Chris Newell 12/5/2021
 
 ## Overview of Project
 Refactor our workbook for Steve so that it runs faster for future scalability.  
@@ -6,7 +7,8 @@ Our goal is to loop through all the data one time and still collect all the requ
 
 ## Analysis and Challenges
 ### Investment Recommendation
-![2017 Results](/2017_Results.png)![2018 Results](/2018_Results.png)
+![2017 Results](/2017_Results.png)  ![2018 Results](/2018_Results.png)
+
 When you compare the 2017 and 2018 stock analysis results side by side you can visually see that 2017 was generally a more successful year for all companies. The majority of the companies were unable to repeat their 2017 success and posted negative returns. 
 
 Two companies go against that trend, ENPH and RUN. Both of them were able to post positive returns in back-to-back years. 
