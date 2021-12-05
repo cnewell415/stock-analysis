@@ -6,6 +6,7 @@ Our goal is to loop through all the data one time and still collect all the requ
 
 ## Analysis and Challenges
 ### Investment Recommendation
+![2017 Results](/2017_Results.png)![2018 Results](/2018_Results.png)
 When you compare the 2017 and 2018 stock analysis results side by side you can visually see that 2017 was generally a more successful year for all companies. The majority of the companies were unable to repeat their 2017 success and posted negative returns. 
 
 Two companies go against that trend, ENPH and RUN. Both of them were able to post positive returns in back-to-back years. 
@@ -20,7 +21,9 @@ When it comes to timing measurements, it is good practice to measure numerous ti
 3) AllStocksAnalysis() | Input = 2018
 4) AllStocksAnalysisRefactored() | Input = 2018
 
-I ran each of these 5 times, then calculated the average runtime for each. Then I compared the runtime of the refactored macro to the original macro. The results for both years shows that the refactored code runs fasters. 
+I ran each of these 5 times, then calculated the average runtime for each. Then I compared the runtime of the refactored macro to the original macro. The results for both years shows that the refactored code runs quicker. 
+
+![Runtime Results](/Runtime_Data.png)
 
 The code runs faster after the for loops in the original code are separated and do not run within one another. 
 
