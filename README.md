@@ -1,5 +1,5 @@
 # VBA of Wall Street
-### Chris Newell 12/5/2021
+> Chris Newell 12/5/2021
 
 ## Overview of Project
 Refactor our workbook for Steve so that it runs faster for future scalability.  
