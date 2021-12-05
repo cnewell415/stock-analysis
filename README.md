@@ -1,8 +1,8 @@
 # VBA of Wall Street
-> Chris Newell 12/5/2021
 
 ## Overview of Project
-Refactor our workbook for Steve so that it runs faster for future scalability.  
+At this time we have created a macro that Steve can use to find his required stock data. Our challenge now is to refactor our code so that it runs faster for future scalability.
+
 Our goal is to loop through all the data one time and still collect all the required stock information. If we can do this, does the code run any faster? If so, why? 
 
 ## Results
@@ -13,7 +13,7 @@ When you compare the 2017 and 2018 stock analysis results side by side you can v
 
 Two companies go against that trend, ENPH and RUN. Both of them were able to post positive returns in back-to-back years. 
 
-Limited to this data set, I would recommend Steve look closer into ENPH and RUN as potential companies to diversify his parent's investments in.
+Limited to this data set, I would recommend Steve look closer into ENPH and RUN as potential companies to diversify his parent's investments.
 
 ### Code Runtime Results
 When it comes to timing measurements, it is good practice to measure numerous times and calculate the average. I ran four sets of measurements in this fashion. 
@@ -60,4 +60,7 @@ Refactoring code results in faster runtimes by efficiently using memory and reso
 A possible disadvantage of refactoring code would be code that is too simplified. Is the code too streamlined for another programmer to understand it? Would that be useful in a company setting? Most likely not, since employees are always changing. 
 
 In the case of our AllStocksAnalysis code, refactoring was useful in speeding it up and should have been done. 
+
+## Author
+> Chris Newell 12/5/2021
 
