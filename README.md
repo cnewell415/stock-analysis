@@ -5,7 +5,7 @@
 Refactor our workbook for Steve so that it runs faster for future scalability.  
 Our goal is to loop through all the data one time and still collect all the required stock information. If we can do this, does the code run any faster? If so, why? 
 
-## Analysis and Challenges
+## Results
 ### Investment Recommendation
 ![2017 Results](/2017_Results.png)  ![2018 Results](/2018_Results.png)
 
